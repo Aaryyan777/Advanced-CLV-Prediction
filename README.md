@@ -60,12 +60,12 @@ This project employs a multi-faceted approach to model training and optimization
 
     The `two_stage_ensemble` model demonstrated superior performance with the highest mean R² score (0.9615) and the lowest mean RMSE (2,681.99) across the time-series cross-validation folds, making it the most reliable for CLV prediction in this context.
 
-    **Detailed Metrics for Best Model (**TWO STAGE ENSEMBLE**):**
-    *   **R²:** 0.9824 (on the full dataset)
-    *   **RMSE (Root Mean Squared Error):** 1854.35
-    *   **MAE (Mean Absolute Error):** 265.98
-    *   **Mean Residual:** 122.34
-    *   **Standard Deviation of Residuals:** 1850.31
+    Detailed Metrics for Best Model (`two_stage_ensemble`):
+    *   R²: 0.9824 (on the full dataset)
+    *   RMSE (Root Mean Squared Error): 1854.35
+    *   MAE (Mean Absolute Error): 265.98
+    *   Mean Residual: 122.34
+    *   Standard Deviation of Residuals: 1850.31
 
 ### Customer Segmentation
 This project performs K-Means clustering on the predicted CLV to segment customers into distinct groups. The `k-means_clustering.py` script identifies optimal clusters and provides detailed analysis of each segment.
