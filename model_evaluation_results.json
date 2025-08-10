@@ -1,0 +1,31 @@
+{
+    "model_comparison": {
+        "outputs/models/stacking_ensemble": {
+            "R2_mean": 0.7947064985612389,
+            "R2_std": 0.3215076834426925,
+            "RMSE_mean": 5309.453833745964,
+            "RMSE_std": 6497.419166477006
+        },
+        "outputs/models/two_stage_ensemble": {
+            "R2_mean": 0.9615293954933375,
+            "R2_std": 0.015438227937911768,
+            "RMSE_mean": 2681.985927224041,
+            "RMSE_std": 1480.1699468298161
+        },
+        "outputs/models/xgb_optimized": {
+            "R2_mean": 0.7002224049633201,
+            "R2_std": 0.07709264875921108,
+            "RMSE_mean": 6982.978418657227,
+            "RMSE_std": 3370.398091922427
+        }
+    },
+    "best_model": "outputs/models/two_stage_ensemble",
+    "best_metrics": {
+        "R2": 0.9823875319707176,
+        "RMSE": 1854.350788505635,
+        "MAE": 265.97787253419585,
+        "Mean_Residual": 122.33912880402812,
+        "Std_Residual": 1850.310780489305
+    },
+    "feature_importance": null
+}
