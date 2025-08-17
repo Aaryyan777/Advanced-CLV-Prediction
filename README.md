@@ -148,10 +148,9 @@ To set up the project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your_clv_project.git
-    cd your_clv_project
+    git clone https://github.com/Aaryyan777/Advanced-CLV-Prediction.git
+    cd Advanced-CLV-Prediction
     ```
-    (Note: Replace `https://github.com/your-username/your_clv_project.git` with the actual repository URL if it's hosted on GitHub.)
 
 2.  **Create a virtual environment (recommended):**
     ```bash
@@ -216,7 +215,7 @@ The project workflow is designed to be executed sequentially through the Python 
 ## Project Structure
 
 ```
-your_clv_project/
+Advanced-CLV-Prediction/
 ├───requirements.txt
 ├───data/
 │   ├───models/                 # Placeholder for any data-related models (e.g., clustering)
